@@ -1,0 +1,61 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+  margin-top: 18%;
+  font-family: "PT Sans", sans-serif;
+}
+
+.message {
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  color: #fa830d;
+}
+
+.fourofour {
+  font-family: "Exo 2", sans-serif;
+  font-size: 80px;
+  display: block;
+  max-width: 150px;
+  text-align: center;
+  margin: auto;
+}
+
+
+a:link{
+    color: none;
+}
+
+a:visited{
+    color: none;
+}
+.button {
+  justify-content: center;
+  margin: auto;
+  padding-top: 15px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+}
+.button > a {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 25px;
+  -webkit-box-shadow: -6px 0px 15px 1px rgba(10, 10, 10, 0.55);
+  -moz-box-shadow: -6px 0px 15px 1px rgba(10, 10, 10, 0.55);
+  box-shadow: -6px 0px 15px 1px rgba(10, 10, 10, 0.55);
+}
